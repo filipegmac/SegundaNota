@@ -72,8 +72,11 @@ a {
     color: white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 450px) {
     .grid {
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
